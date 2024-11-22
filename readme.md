@@ -5,7 +5,7 @@
         </p>
     </header>
 
-    <section>
+<section>
         <h2>Features</h2>
         <ul>
             <li>
@@ -29,8 +29,7 @@
             </li>
         </ul>
     </section>
-
-    <section>
+<section>
         <h2>Installation</h2>
         <ol>
             <li>Clone the repository:
