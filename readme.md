@@ -43,3 +43,9 @@ cd &lt;repository-folder&gt;</code></pre>
             </li>
         </ol>
     </section>
+<section>
+        <h2>Contributing</h2>
+        <p>
+            Feel free to fork this repository and contribute to enhance the project. Suggestions and improvements are welcome!
+        </p>
+    </section>
