@@ -32,8 +32,7 @@
         <h2>Installation</h2>
         <ol>
             <li>Clone the repository:
-                <pre><code>git clone &lt;repository-url&gt;
-cd &lt;repository-folder&gt;</code></pre>
+                <pre><code>git clone[ &lt;repository-url&gt;](https://github.com/Arwa45/Name-Class.git)</pre>
             </li>
             <li>Install the required packages:
                 <pre><code>pip install -r requirements.txt</code></pre>
