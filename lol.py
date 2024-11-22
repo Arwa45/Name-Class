@@ -33,7 +33,6 @@ class Name:
             return translation_list[1]
         else:
             return [f"Error: {response.status_code}"]
-    pass
     
     # def cool_email_name(self):
     #     pass
@@ -69,7 +68,6 @@ class Name:
                 return f"No Urban Dictionary definitions found for {term}."
         except Exception as e:
             return f"Error fetching definition: {str(e)}"
-    pass
     
 
 first = Name("Arwa", "Ahmed", "Madien")
