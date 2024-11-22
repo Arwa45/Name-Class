@@ -16,7 +16,6 @@
                 <strong>Name Translation:</strong>
                 <ul>
                     <li>Uses the Reverso Context website to translate the first name from one language to another.</li>
-                    <li>Example: Translate "Arwa" from English to Arabic.</li>
                 </ul>
             </li>
             <li>
@@ -37,7 +36,7 @@
 cd &lt;repository-folder&gt;</code></pre>
             </li>
             <li>Install the required packages:
-                <pre><code>pip install requests beautifulsoup4 pyttsx3</code></pre>
+                <pre><code>pip install -r requirements.txt</code></pre>
             </li>
             <li>Run the script:
                 <pre><code>python &lt;script-name&gt;.py</code></pre>
