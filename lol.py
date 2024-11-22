@@ -73,6 +73,7 @@ class Name:
     
 
 first = Name("Arwa", "Ahmed", "Madien")
-
-print(first.urban_dictionary())
+print(first.full_Name())
 print(first.name_translation("english", "arabic"))
+print(first.funny())
+print(first.urban_dictionary())
