@@ -39,7 +39,7 @@ cd &lt;repository-folder&gt;</code></pre>
                 <pre><code>pip install -r requirements.txt</code></pre>
             </li>
             <li>Run the script:
-                <pre><code>python &lt;script-name&gt;.py</code></pre>
+                <pre><code>python lol.py</code></pre>
             </li>
         </ol>
     </section>
