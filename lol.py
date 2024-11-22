@@ -30,7 +30,7 @@ class Name:
             translations = soup.find_all("a", class_="translation")
             translation_list = [t.text.strip() for t in translations if t.text.strip()]
 
-            return translation_list
+            return translation_list[1]
         else:
             return [f"Error: {response.status_code}"]
     pass
@@ -75,14 +75,4 @@ class Name:
 first = Name("Arwa", "Ahmed", "Madien")
 
 print(first.urban_dictionary())
-translations = first.name_translation("english", "arabic")
-for translation in translations:
-    try:
-        print(translation)
-    except UnicodeEncodeError:
-        print("Unable to display translation in terminal. Check 'translations_output.txt'.")
-
-# Save translations to a file to avoid terminal encoding issues
-with open("translations_output.txt", "w", encoding="utf-8") as f:
-    for translation in translations:
-        f.write(translation + "\n")
+print(first.name_translation("english", "arabic"))
